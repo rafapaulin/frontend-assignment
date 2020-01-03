@@ -1,0 +1,16 @@
+.btn,
+button,
+[type='submit'] {
+  align-items: center;
+  border: 0;
+  border-radius: .2rem;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

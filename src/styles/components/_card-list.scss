@@ -1,0 +1,52 @@
+.card-list {
+  background: $white;
+  border: 1px solid lighten($light-blue, 40%);
+  border-radius: .4rem;
+  margin: 1.5rem 0;
+
+  & > header {
+    border-bottom: 1px solid lighten($light-blue, 40%);
+    margin-bottom: 0;
+    padding: 1.5rem;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+
+  .card {
+    border-bottom: 1px solid lighten($light-blue, 40%);
+    display: flex;
+    padding: 1.5rem;
+
+    &:last-child {
+      border: 0;
+    }
+
+    .date {
+      color: $gray;
+      font-size: 1.4rem;
+      width: 30%;
+    }
+
+    .status-icon {
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      width: 10%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .desc {
+      padding: 0 1.5rem;
+      width: 60%;
+    }
+  }
+}
+

@@ -1,0 +1,35 @@
+.side-nav {
+  border-radius: .4rem;
+  width: 25%;
+
+  ul {
+    background-color: $white;
+    border: 1px solid lighten($light-blue, 40%);
+
+    li {
+      border-bottom: 1px solid lighten($light-blue, 40%);
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &:last-child {
+        border: 0;
+      }
+
+      a {
+        border-left: 3px solid transparent;
+        color: $blue;
+        display: block;
+        padding: 2.5rem 2rem;
+
+        &:hover {
+          border-color: $light-blue;
+        }
+
+        &.router-link-active {
+          border-color: $blue;
+        }
+      }
+    }
+  }
+}

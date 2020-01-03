@@ -1,0 +1,41 @@
+form {
+  width: 100%;
+}
+
+.form-group {
+  padding-bottom: 2.5rem;
+
+  &.half {
+    width: 50%;
+  }
+
+  &.invalid {
+    label {
+      color: $red;
+    }
+
+    input {
+      border-color: $red;
+    }
+  }
+}
+
+textarea {
+  padding: 1.5rem;
+}
+
+label {
+  color: $gray;
+  display: block;
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+.error-msg {
+  color: red;
+  font-size: 1.2rem;
+  position: absolute;
+  right: .5rem;
+  top: 5.7rem;
+}

@@ -30,7 +30,8 @@ module.exports = {
       Images: path.resolve(__dirname, 'src', 'images'),
       Styles: path.resolve(__dirname, 'src', 'styles'),
       Plugins: path.resolve(__dirname, 'src', 'plugins'),
-      Mixins: path.resolve(__dirname, 'src', 'mixins')
+      Mixins: path.resolve(__dirname, 'src', 'mixins'),
+      'vue$': 'vue/dist/vue.esm.js'
     }
   },
   entry: path.resolve(__dirname, 'src', 'index.js'),

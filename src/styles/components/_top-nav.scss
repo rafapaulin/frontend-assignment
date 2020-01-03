@@ -1,0 +1,62 @@
+.top-nav {
+  background: $blue;
+  color: $white;
+  font-size: 1.5rem;
+  height: 6rem;
+  padding: 1rem 5rem;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: darken($white, 15%);
+    }
+  }
+
+  .logo {
+    margin-right: 3rem
+  }
+
+  form {
+    width: 25vw;
+
+    input {
+      border: 0;
+    }
+  }
+
+  input {
+    background-color: $dark-blue;
+    color: $white;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+
+  & > span {
+    padding: 0 1.5rem;
+  }
+
+  & > button {
+    background-color: $light-blue;
+    color: $white;
+
+    &:hover {
+      background-color: darken($light-blue, 5%);
+    }
+  }
+
+  .menu {
+    display: flex;
+    padding: 0 2rem;
+  }
+
+  .right-pane {
+    margin-left: auto;
+
+    figure {
+      margin-left: 1.5rem;
+    }
+  }
+}

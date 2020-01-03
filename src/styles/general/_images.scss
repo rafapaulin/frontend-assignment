@@ -1,0 +1,23 @@
+figure {
+  &.medium {
+    height: 4rem;
+  }
+
+  &.small {
+    height: 3.5rem;
+  }
+}
+
+.v-adjust {
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.h-adjust {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}

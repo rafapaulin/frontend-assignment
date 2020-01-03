@@ -1,0 +1,41 @@
+input,
+textarea {
+  border: 1px solid lighten($light-blue, 40%);
+  border-radius: .2rem;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  width: 100%;
+
+  &[type='search'] {
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 3rem;
+  }
+
+  &::placeholder {
+    color: $gray;
+  }
+}
+
+textarea {
+  min-height: 20rem;
+}
+
+.double-input {
+  display: flex;
+
+  input {
+    width: 50%;
+
+    &:first-child {
+      border-radius: .2rem 0 0 .2rem;
+      border-right: 0;
+    }
+
+    &:last-child {
+      border-left: 0;
+      border-radius: 0 .2rem .2rem 0;
+    }
+  }
+}

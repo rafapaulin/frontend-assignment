@@ -1,0 +1,54 @@
+.company-page {
+  flex-direction: column;
+
+  & > header {
+    display: flex;
+    margin-bottom: 3rem;
+
+    hgroup {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: .5rem 0;
+    }
+
+    h1 {
+      font-weight: normal;
+      margin: 0;
+    }
+
+    span {
+      font-size: 1.4rem;
+    }
+
+    i {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+
+  figure {
+    background: $white;
+    border-radius: .8rem;
+    margin: 0 1.5rem 0 0;
+    padding: 1.5rem;
+
+    img {
+      height: auto;
+      width: 4rem;
+    }
+  }
+
+  .ph {
+    padding: 0;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+}

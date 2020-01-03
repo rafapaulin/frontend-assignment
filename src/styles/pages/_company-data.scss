@@ -1,0 +1,20 @@
+.company-data {
+  width: 100%;
+
+  form {
+    border: 1px solid lighten($light-blue, 40%);
+    border-radius: .4rem;
+    overflow: auto;
+    padding: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 5rem;
+  }
+}
+
+.additional-notes {
+  textarea {
+    width: 40vw;
+  }
+}

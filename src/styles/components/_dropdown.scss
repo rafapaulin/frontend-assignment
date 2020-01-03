@@ -1,0 +1,34 @@
+.dropdown {
+  & > a {
+    align-items: center;
+    display: flex;
+    padding: 0 1rem;
+  }
+
+  .caret {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    display: inline-block;
+    height: 2rem;
+    margin-left: .5rem;
+    width: 2rem;
+  }
+
+  ul {
+    background: $blue;
+    border-radius: .3rem;
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+
+    &.open {
+      display: block;
+    }
+
+    li {
+      padding: 1rem 1.5rem;
+    }
+  }
+}
